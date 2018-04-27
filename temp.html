@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web Viz Dashboard</title>
+  <!-- CSS Stylesheets with Relative Paths -->
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.0/simplex/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+    
+
+
+  <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html">Latitude Analysis Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor02">
+                <ul class="navbar-nav navbar-right">
+                   
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Figures</a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="temp.html">Fig 1 : Temperature (F) vs. Latitude</a>
+                              <a class="dropdown-item" href="humidity.html">Fig 2 : Humidity (%) vs. Latitude</a>
+                              <a class="dropdown-item" href="cloudiness.html">Fig 3: Cloudiness (%) vs. Latitude</a>
+                              <a class="dropdown-item" href="windspeed.html">Fig 4: Wind Speed (mph) vs. Latitude</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="comp.html">Comparisons</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+
+   
+
+
+  </header>
+
+
+
+<!-- Creates the Overall Grid -->
+<div class="container">
+       
+            <div class="col-md-7">
+                <h1 align="left">Fig 1 : Temperature (F) vs. Latitude</h1>                
+                    <img width=600 src="1_Temp_v_Lat.png" class="img-responsive" alt="Responsive image">
+                        <p> As expected, the weather becomes significantly warmer as one approaches the equator (0 Degrees Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This is likely due to the tilt of the earth at the time of the year this data was gathered.
+                        </p>
+                                
+                        <p>
+                        </p>
+            </div>
+         
+
+            
+            <div class="col-md-5">
+                    <h2 align="left">Visualizations</h2>
+                <div class="row">
+                        <div class="col-md-6">
+                          
+                                    <p>
+                                     
+                                        <a href="temp.html"><img class="picture" width=250 src="1_Temp_v_Lat.png"></a>
+                                       
+                                    </p>           
+            
+                            
+
+                         </div>
+                               
+                        <div class="col-md-6">
+                                    <p>
+                                    <a href="humidity.html"> <img class="picture" width=200 src="2_Humidity_v_Lat.png"></a>
+                                    </p>
+                                </div>
+                
+                </div>
+                <div class="row">
+                        <div class="col-md-6">
+                                <p>
+                                    <a href="cloudiness.html"> <img class="picture" width=200 src="3_Clouds_v_Lat.png"></a>
+                                </p>
+                        </div>
+                        <div class="col-md-6">
+                       
+                                    <p>
+                                    <a href="windspeed.html"> <img class="picture" width=200 src="4_Wind_v_Lat.png"></a>
+                                    </p>
+                        </div>
+
+
+
+                </div>
+                
+
+                   
+
+                
+                   
+                    
+            
+            
+            </div> 
+                    
+               
+        
+            
+        
+</div>    
+</body>
+</html>
+
+
+
+
+<img src="//css-tricks.com/wp-content/uploads/2011/03/captionexample.jpg" alt="" title="captionexample" width="570" height="350" class="alignnone size-full wp-image-8866">
+
+
+           
